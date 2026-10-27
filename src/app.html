@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="Put your name on a clicky snack counter and download a print-ready 3MF."
+		/>
+		<style>
+			@font-face {
+				font-family: Jost;
+				font-style: normal;
+				font-weight: 400;
+				font-display: swap;
+				src: url("%sveltekit.assets%/fonts/ui/jost-400.woff2") format("woff2");
+			}
+			@font-face {
+				font-family: Jost;
+				font-style: normal;
+				font-weight: 700;
+				font-display: swap;
+				src: url("%sveltekit.assets%/fonts/ui/jost-700.woff2") format("woff2");
+			}
+		</style>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

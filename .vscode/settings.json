@@ -1,0 +1,5 @@
+{
+	// tsconfig.json is validated against the SchemaStore schema. Cursor leaves
+	// remote schema downloads off unless this is enabled.
+	"json.schemaDownload.enable": true
+}
