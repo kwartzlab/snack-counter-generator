@@ -17,12 +17,12 @@
 
 	const spec = loadPlates();
 
-	let name = $state('RYAN DRAGA');
-	let tagline = $state('SNACK SHAMER 9000');
+	let name = $state('YOUR NAME');
+	let tagline = $state('SNACK COUNTER');
 	let allCaps = $state(true);
 	let fontId = $state(FONTS[0]?.id ?? 'bebas');
-	let debouncedName = $state('RYAN DRAGA');
-	let debouncedTagline = $state('SNACK SHAMER 9000');
+	let debouncedName = $state('YOUR NAME');
+	let debouncedTagline = $state('SNACK COUNTER');
 	let font = $state<Font | null>(null);
 	let fontError = $state<string | null>(null);
 	let format = $state<DownloadFormat>('3mf');

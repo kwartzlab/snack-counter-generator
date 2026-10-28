@@ -76,8 +76,8 @@ describe('snack counter page', () => {
 	it('loads the default lettering onto both front plates', async () => {
 		await renderPage();
 		expect(document.querySelector('h1')?.textContent).toBe('Snack Budget Counter');
-		expect(field('name').value).toBe('RYAN DRAGA');
-		expect(field('tagline').value).toBe('SNACK SHAMER 9000');
+		expect(field('name').value).toBe('YOUR NAME');
+		expect(field('tagline').value).toBe('SNACK COUNTER');
 		expect(document.querySelectorAll('canvas')).toHaveLength(2);
 		expect(document.body.textContent).toContain('Front plate A · bed side');
 		expect(document.body.textContent).toContain('Front plate B · bed side');
