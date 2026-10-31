@@ -75,7 +75,8 @@ afterEach(() => {
 describe('snack counter page', () => {
 	it('loads the default lettering onto both front plates', async () => {
 		await renderPage();
-		expect(document.querySelector('h1')?.textContent).toBe('Snack Budget Counter');
+		expect(document.title).toBe('Kwartzlab Makerspace | Pantry Budget Counter Generator');
+		expect(document.querySelector('h1')?.textContent).toBe('Pantry Budget Counter Generator');
 		expect(field('name').value).toBe('YOUR NAME');
 		expect(field('tagline').value).toBe('SNACK COUNTER');
 		expect(document.querySelectorAll('canvas')).toHaveLength(2);

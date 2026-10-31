@@ -138,7 +138,7 @@
 </script>
 
 <svelte:head>
-	<title>Snack Budget Counter</title>
+	<title>Kwartzlab Makerspace | Pantry Balance Counter Generator</title>
 </svelte:head>
 
 <div class="wrap">
@@ -146,10 +146,12 @@
 		<a class="brand" href="https://kwartzlab.ca" aria-label="Kwartzlab Makerspace">
 			<img src="./kwartzlab-logo.webp" alt="" width="220" height="88" />
 		</a>
-		<h1>Snack Budget Counter</h1>
+		<h1>Pantry Balance Counter Generator</h1>
 		<p class="lede">
-			Put your name on a clicky snack counter. Type it in, check the preview, and download a 3MF or an STL.
-			The lettering is raised 0.8 mm and prints face-down on the bed.
+			Sick of all the tape all over the side of the drink fridge?
+			Put your name on a personalized "clicky dial"-style balance counter that you can stick there instead!
+			<br /><br />
+			Type your name in, check the preview, and download a 3D-printable file (3MF or STL).
 		</p>
 	</header>
 
@@ -233,7 +235,6 @@
 
 	h1 {
 		margin: 0;
-		max-width: 12ch;
 		font: 700 clamp(40px, 7vw, 64px) / 0.9 var(--f-display);
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
@@ -242,7 +243,6 @@
 
 	.lede {
 		margin: 0;
-		max-width: 62ch;
 		color: var(--muted);
 	}
 
